@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color:  #7c17b4;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  height: 60vh;
+  
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu{
+  width: 200px;
+  height: 200px;
+  margin: 1rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.menu div{
+  width: 120px;
+  height: 120px;
+  margin: 40px;
+  position: relative;
+
+ 
+
+position: relative;
+}
+
+.menu span{
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 10px;
+
+  border-radius: 4px;
+
+  display: block;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  transition: all 0.3s ease;
+}
+
+.menu .line-1{
+  transform: translate(-50%,-50px);
+}
+
+.menu .line-3{
+  transform: translate(-50%,40px);
+}
+
+.openmenu .line-1{
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.openmenu .line-2{
+  width: 0;
+}
+
+.openmenu .line-3{
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+
+
+.menu .line-4{
+  transform: translate(-50%,-50px);
+}
+
+.menu .line-5{
+  transform: translate(-50%,40px);
+}
+
+.openmenu .line-4{
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.openmenu .line-5{
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.developer{
+  color: #fff;
+}
+
+a{
+  font-weight: 700;
+  text-decoration: none;
+  color:  #00b8a5;
+}
+
+
+@media (max-width:600px){
+  .container{
+    flex-direction: column;
+  }
+}
