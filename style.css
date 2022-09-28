@@ -81,11 +81,11 @@ position: relative;
 
 
 .menu .line-4{
-  transform: translate(-50%,-50px);
+  transform: translate(-50%,-30px);
 }
 
 .menu .line-5{
-  transform: translate(-50%,40px);
+  transform: translate(-50%,20px);
 }
 
 .openmenu .line-4{
